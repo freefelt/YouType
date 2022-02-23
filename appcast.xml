@@ -3,13 +3,12 @@
     <channel>
         <title>YouType</title>
         <item>
-            <title>0.1.7</title>
-            <pubDate>Wed, 23 Feb 2022 20:09:07 +0500</pubDate>
-            <sparkle:version>0.1.7</sparkle:version>
-            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
-            <description><![CDATA[- Added checking for updates]]></description>
+            <title>0.1.8</title>
+            <sparkle:version>0.1.8</sparkle:version>
+            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+            <description><![CDATA[- fixed support URL]]></description>
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/freefelt/YouType/releases/download/0.1.7/YouType_0.1.7.zip" length="6568260" type="application/octet-stream" sparkle:edSignature="tzI0pwlL9D3kCHwi1RLzW+ktPg8ZlGis/zRzzIib1FCgAv4z43UKNRNNdolvLEyZQrgnGPJwW2mRWHszTOdMBw=="/>
+            <enclosure url="https://github.com/freefelt/YouType/releases/download/0.1.8/YouType_0.1.8.zip" length="6568319" type="application/octet-stream" sparkle:edSignature="RB0e2E3Y006/6p8e/J0k4ts00NYlrl5MqelUavobQ0UpQEYvaiWZjJWKyatxpWxCS7bVABYZ4z11vnpLDL6hBw=="/>
         </item>
     </channel>
 </rss>
