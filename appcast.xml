@@ -3,13 +3,15 @@
     <channel>
         <title>YouType</title>
         <item>
-            <title>0.1.9</title>
-            <sparkle:version>0.1.9</sparkle:version>
-            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+            <title>0.2</title>
+            <sparkle:version>0.2</sparkle:version>
+            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/freefelt/YouType/releases/download/0.1.9/YouType_0.1.9.zip" length="6574297" type="application/octet-stream" sparkle:edSignature="LwLdPBJyt5A94aU+cNjDUf9iJbM/FGxkXYKICQk8GjpywyaI19fKdZHzxWtEpX/n+GCybqi+JvWux238zXOYAg=="/>
-            <description><![CDATA[- If the indicator is hidden when entering text or scrolling, it appears again when switching the input method
-- Some fixes to improve performance]]></description>
+            <enclosure url="https://github.com/freefelt/YouType/releases/download/0.2/YouType_0.2.zip" length="6567187" type="application/octet-stream" sparkle:edSignature="P6B3lZifsq9kmWSWZ+BI+ZzmdvKdJkZCqy5sZMc+U7I9Fsg0RRWp/qr+BuWl1tkak+MyCKxRCyUnMscp6ZzhCA=="/>
+            <description><![CDATA[- redused energy consumption
+                - added feature that fixes translucent indicator appearance
+                - fixed the method of moving the flag behind the cursor (before it could appear and not run after the cursor)
+                - fixed the method of displaying the current layout (the wrong flag could be shown before)]]></description>
         </item>
     </channel>
 </rss>
