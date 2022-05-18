@@ -3,15 +3,13 @@
     <channel>
         <title>YouType</title>
         <item>
-            <title>0.2</title>
-            <sparkle:version>0.2</sparkle:version>
-            <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+            <title>0.3</title>
+            <sparkle:version>0.3</sparkle:version>
+            <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/freefelt/YouType/releases/download/0.2/YouType_0.2.zip" length="6567187" type="application/octet-stream" sparkle:edSignature="P6B3lZifsq9kmWSWZ+BI+ZzmdvKdJkZCqy5sZMc+U7I9Fsg0RRWp/qr+BuWl1tkak+MyCKxRCyUnMscp6ZzhCA=="/>
-            <description><![CDATA[- redused energy consumption
-                - added feature that fixes translucent indicator appearance
-                - fixed the method of moving the flag behind the cursor (before it could appear and not run after the cursor)
-                - fixed the method of displaying the current layout (the wrong flag could be shown before)]]></description>
+            <enclosure url="https://github.com/freefelt/YouType/releases/download/0.3/YouType_0.3.zip" length="6554463" type="application/octet-stream" sparkle:edSignature="VG45gFSEueyXq4Dmg+dH9rj6AuK0HaeEdgPcKusAPGGQExuCWJRh9Adt33KGhHWjv5/Lo55vpQpy7CAfAZ13DQ=="/>
+            <description><![CDATA[- fixed Grey language block instead of lang flag #4\n
+                - better quality for statusbar flag icon]]></description>
         </item>
     </channel>
 </rss>
