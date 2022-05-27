@@ -3,13 +3,14 @@
     <channel>
         <title>YouType</title>
         <item>
-            <title>0.3</title>
-            <sparkle:version>0.3</sparkle:version>
-            <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+            <title>0.4</title>
+            <pubDate>Fri, 27 May 2022 13:18:57 +0500</pubDate>
+            <sparkle:version>0.4</sparkle:version>
+            <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
+            <description><![CDATA[- new method of getting the input source icon (now the Gureum input source supported)<br>
+]]></description>
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/freefelt/YouType/releases/download/0.3/YouType_0.3.zip" length="6554463" type="application/octet-stream" sparkle:edSignature="VG45gFSEueyXq4Dmg+dH9rj6AuK0HaeEdgPcKusAPGGQExuCWJRh9Adt33KGhHWjv5/Lo55vpQpy7CAfAZ13DQ=="/>
-            <description><![CDATA[- fixed Grey language block instead of lang flag #4\n
-                - better quality for statusbar flag icon]]></description>
+            <enclosure url="https://github.com/freefelt/YouType/releases/download/0.4/YouType_0.4.zip" length="6555289" type="application/octet-stream" sparkle:edSignature="CWUUZTQjmtf2Ggn18RT89jPg719TiRdD3r9uu+NBw2KdRShbA1l5snkvQM6yP1Pa9zYbGBVl/eOxd51XIPqgAw=="/>
         </item>
     </channel>
 </rss>
