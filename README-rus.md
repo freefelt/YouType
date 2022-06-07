@@ -1,6 +1,6 @@
 # YouType для macOS
 ![77b0a01cefcd12c9354c7a5d465668e6_gallery.jpg](Screenshot1.jpeg)
-[**Обратная связь**](https://github.com/freefelt/YouType/issues/new)  |  [Обзоры / упоминания](reviews.md)  |  [Скачать](https://github.com/freefelt/YouType/raw/main/YouType.zip)  |  This page is also available in: [english](../..)
+[**Обратная связь**](https://github.com/freefelt/YouType/issues/new)  |  [Обзоры / упоминания](reviews.md)  |  [Скачать](https://github.com/freefelt/YouType/raw/main/YouType.zip) |  [YouType for Windows](Windows/README-rus.md)  |  This page is also available in: [english](../..)
 
 **YouType** это полезная программа, которая позволит тебе сохранить нервы и работать на компьютере более эффективно. При наведении курсора мыши на любое текстовое поле, YouType показывает рядом с указателем флажок текущей раскладки клавиатуры. Ты будешь видеть текущий язык как раз перед вводом текста, и в том месте экрана, куда ты смотришь в данный момент. Это очень удобно! Это позволит тебе делать меньше ошибок ввода и не терять время на исправление уже напечатанного.
 
