@@ -3,38 +3,13 @@
     <channel>
         <title>YouType</title>
         <item>
-            <title>0.4.1</title>
-            <pubDate>Thu, 02 Jun 2022 12:54:10 +0500</pubDate>
-            <sparkle:version>0.4.1</sparkle:version>
-            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
-            <description><![CDATA[<b>YouType 0.4.1</b><br>
-• minor fixes<br>
-<br>
-<b>YouType 0.4</b><br>
-• new method of getting the input source icon (now the Gureum input source supported)<br>
-<br>
-<b>YouType 0.3</b><br>
-• fixed Grey language block instead of lang flag<br>
-• better quality for statusbar flag icon<br>
-<br>
-<b>YouType 0.2</b><br>
-• redused energy consumption<br>
-• added feature that fixes translucent indicator appearance<br>
-• fixed the method of moving the flag behind the cursor (before it could appear and not run after the cursor)<br>
-• fixed the method of displaying the current layout (the wrong flag could be shown before)<br>
-<br>
-<b>YouType 0.1.9</b><br>
-• if the indicator is hidden when entering text or scrolling, it appears again when switching the input method<br>
-• some fixes to improve performance<br>
-<br>
-<b>YouType 0.1.8</b><br>
-• fixed support URL<br>
-<br>
-<b>YouType 0.1.7</b><br>
-• added checking for updates<br>
-]]></description>
+            <title>0.5</title>
+            <pubDate>Thu, 09 Jun 2022 11:53:27 +0500</pubDate>
+            <sparkle:version>0.5</sparkle:version>
+            <sparkle:shortVersionString>0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/freefelt/YouType/raw/main/YouType.zip" length="6555291" type="application/octet-stream" sparkle:edSignature="6zVaTtnde8B+H4vOYcHhpNzQAxN8hzpkxgKaJCsXCZi9/3GJRc+R6+dnpsYMR6sxxHPcvFVK0wcFbUQ5y+oJDQ=="/>
+            <sparkle:releaseNotesLink>https://github.com/freefelt/YouType/raw/main/ReleaseNotes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/freefelt/YouType/raw/main/YouType.zip" length="6578168" type="application/octet-stream" sparkle:edSignature="U5en+VSQItifYli5rh7x3cX4Ps9M/slEOAu3jYhTfOtzMKc7ZlOMDCHLNVrl3cl6o/JYGKGhaMiLC0zjYOu3Cg=="/>
         </item>
     </channel>
 </rss>
