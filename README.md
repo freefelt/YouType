@@ -1,4 +1,4 @@
-# YouType for macOS
+# YouType for macOS (Can display the current keyboard layout in the status bar as flags in macOS 12.4)
 ![77b0a01cefcd12c9354c7a5d465668e6_gallery.jpg](Screenshot1.jpeg)
 [**Feedback**](https://github.com/freefelt/YouType/issues/new)  |  [Reviews / references](reviews.md)  |  [Download](https://github.com/freefelt/YouType/raw/main/YouType.zip)  |  [YouType for Windows](Windows/README.md) |  Страница так же доступна на: [русском](README-rus.md)
 
