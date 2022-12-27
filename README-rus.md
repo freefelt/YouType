@@ -20,3 +20,8 @@
 ```
 brew install youtype
 ```
+или
+```
+brew install --no-quarantine youtype
+```
+чтобы избежать всплывающего окна Gatekeeper при первом запуске.
