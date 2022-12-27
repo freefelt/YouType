@@ -6,7 +6,7 @@ echo "Base dir: $(dirname "$0")"
 if test -f "YouType.zip"; then
     echo "============= Installing YouType ============="
     if [[ $(dirname "$0") == /opt/homebrew/Caskroom/youtype* ]]; then
-        APPDESTINATION=""
+        APPDESTINATION="$(dirname "$0")/"
     else
         APPDESTINATION="/Applications/"
     fi
