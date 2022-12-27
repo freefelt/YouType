@@ -1,31 +1,53 @@
-echo "============= Downloading YouType ============="
-curl -fsSL -o YouType.zip 'https://github.com/freefelt/YouType/raw/main/YouType.zip'
+RED='\033[1;31m'
+GREEN='\033[1;32m'
+CYAN='\033[1;36m'
+WHITE='\033[1;37m'
+NOCOLOR='\033[0m'
 
-echo "Base dir: $(dirname "$0")"
+printf "${CYAN}============================ Installing YouType =============================\n"
 
-if test -f "YouType.zip"; then
-    echo "============= Installing YouType ============="
-    if [[ $(dirname "$0") == /opt/homebrew/Caskroom/youtype* ]]; then
-        APPDESTINATION="$(dirname "$0")/"
-    else
-        APPDESTINATION="/Applications/"
-    fi
-    APPFILENAME="${APPDESTINATION}YouType.app"
+if [[ $(dirname "$0") == /opt/homebrew/Caskroom/youtype* ]]; then
+    FROMHOMEBREW=1
+    ARCHFILENAME="YouType.zip"
+    APPDESTINATION="$(dirname "$0")"
+else
+    FROMHOMEBREW=0
+    ARCHFILENAME="/tmp/YouType.zip"
+    APPDESTINATION="/Applications"
+fi
+APPFILENAME="$APPDESTINATION/YouType.app"
+
+printf "${WHITE}- Downloading ${RED}"
+curl -fsSL -o $ARCHFILENAME 'https://github.com/freefelt/YouType/raw/main/YouType.zip'
+
+if test -f $ARCHFILENAME; then
+    printf "${GREEN}DONE\n"
+    printf "${WHITE}- Unarchiving "
     
-    echo "APPFILENAME: $APPFILENAME"
-    
-    unzip -qq -o YouType.zip -d "$APPDESTINATION"
-    if test -d "$APPFILENAME"; then
-        rm YouType.zip
-        if [[ $(xattr "$APPFILENAME") = *com.apple.quarantine* ]]; then
-        echo "============= Removing com.apple.quarantine attribute ============="
-            xattr -d com.apple.quarantine "$APPFILENAME"
+    unzip -qq -o $ARCHFILENAME -d $APPDESTINATION
+    if test -d $APPFILENAME; then
+        printf "${GREEN}DONE\n"
+        
+        rm $ARCHFILENAME
+        if [[ $(xattr $APPFILENAME) = *com.apple.quarantine* ]]; then
+            printf "${WHITE}- Removing com.apple.quarantine attribute\n"
+            xattr -d com.apple.quarantine $APPFILENAME
         fi
         
-        echo "============= Success ============="
+        printf "${WHITE}- Removing com.apple.quarantine attribute\n"
+        
+#        if [[ $FROMHOMEBREW == 0 ]]; then
+#            printf "${NOCOLOR}Would you like to run YouType? (y/n): "
+#            read RUN
+#            if [[ $RUN == "y" || $RUN == "Y" ]]; then
+#                open -a YouType
+#            fi
+#        fi
+        
+        printf "${GREEN}  ** SUCCESS **\n"
     else
-        echo "============= Can't unzip YouType to Applications directory ============="
+        printf "${RED}Can't unzip YouType\n"
     fi
-else 
-	echo "============= Can't download YouType ============="
 fi
+
+printf "${CYAN}=============================================================================\n"
