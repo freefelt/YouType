@@ -9,13 +9,13 @@ Also YouType will be useful when working in **full-screen mode**, when indicator
 
 # Installation
 
-## Install using a script
+## Install using a [script](https://github.com/freefelt/YouType/raw/main/Installer.sh)
 Open Terminal.app and run the command:
 ```
 /bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Installer.sh)"
 ```
 
-## Install via [**Homebrew**](https://github.com/Homebrew/homebrew-cask)
+## Install via [Homebrew](https://github.com/Homebrew/homebrew-cask)
 Open Terminal.app and run the command:
 ```
 brew install youtype
