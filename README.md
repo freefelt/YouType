@@ -20,3 +20,8 @@ Open Terminal.app and run the command:
 ```
 brew install youtype
 ```
+or
+```
+brew install --no-quarantine youtype
+```
+to avoid a Gatekeeper popup on first launch.
