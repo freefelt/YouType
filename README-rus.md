@@ -9,13 +9,13 @@
 
 # Установка
 
-## Установить с помощью скрипта
+## Установить с помощью [скрипта](https://github.com/freefelt/YouType/raw/main/Installer.sh)
 Откройте Terminal.app и выполните команду:
 ```
 /bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Installer.sh)"
 ```
 
-## Установить с помощью [**Homebrew**](https://github.com/Homebrew/homebrew-cask)
+## Установить с помощью [Homebrew](https://github.com/Homebrew/homebrew-cask)
 Откройте Terminal.app и выполните команду:
 ```
 brew install youtype
