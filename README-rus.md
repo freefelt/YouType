@@ -7,8 +7,16 @@
 
 Также YouType будет удобна при работе в **полноэкранном режиме**, когда индикатор текущей раскладки скрывается вместе с главной панелью. Флажок возле курсора в нужном месте подскажет какой сейчас выбран язык ввода.
 
-## Установить с помощью [**Homebrew**](https://github.com/Homebrew/homebrew-cask)
+# Установка
 
+## Установить с помощью скрипта
+Откройте Terminal.app и выполните команду:
+```
+/bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Installer.sh)"
+```
+
+## Установить с помощью [**Homebrew**](https://github.com/Homebrew/homebrew-cask)
+Откройте Terminal.app и выполните команду:
 ```
 brew install youtype
 ```
