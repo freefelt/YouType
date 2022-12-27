@@ -7,8 +7,16 @@
 
 Also YouType will be useful when working in **full-screen mode**, when indicator of the current keyboard layout is hidden. The indicator next to the cursor in the right place will tell you what keyboard layout is now selected.
 
-## Install via [**Homebrew**](https://github.com/Homebrew/homebrew-cask)
+# Installation
 
+## Install using a script
+Open Terminal.app and run the command:
+```
+/bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Installer.sh)"
+```
+
+## Install via [**Homebrew**](https://github.com/Homebrew/homebrew-cask)
+Open Terminal.app and run the command:
 ```
 brew install youtype
 ```
