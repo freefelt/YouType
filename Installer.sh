@@ -12,6 +12,8 @@ if test -f "YouType.zip"; then
     fi
     APPFILENAME="${APPDESTINATION}YouType.app"
     
+    echo "APPFILENAME: $APPFILENAME"
+    
     unzip -qq -o YouType.zip -d "$APPDESTINATION"
     if test -d "$APPFILENAME"; then
         rm YouType.zip
