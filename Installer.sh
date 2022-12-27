@@ -4,7 +4,7 @@ CYAN='\033[1;36m'
 WHITE='\033[1;37m'
 NOCOLOR='\033[0m'
 
-if [[ $(dirname "$0") == /opt/homebrew/Caskroom/youtype* ]]; then
+if [[ $(dirname "$0") == */Caskroom/youtype* ]]; then
     FROMHOMEBREW=1
     APPDESTINATION="$(dirname "$0")"
 else
