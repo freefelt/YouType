@@ -3,7 +3,7 @@ curl -fsSL -o YouType.zip 'https://github.com/freefelt/YouType/raw/main/YouType.
 
 if test -f "YouType.zip"; then
     echo "============= Installing YouType ============="
-    if [[ $PWD == /opt/homebrew/Caskroom/youtype* ]]; then
+    if [[ $(dirname "$0") == /opt/homebrew/Caskroom/youtype* ]]; then
         APPDESTINATION=""
     else
         APPDESTINATION="/Applications/"
