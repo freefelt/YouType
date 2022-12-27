@@ -3,11 +3,19 @@ curl -fsSL -o YouType.zip 'https://github.com/freefelt/YouType/raw/main/YouType.
 
 if test -f "YouType.zip"; then
     echo "============= Installing YouType ============="
-    unzip -qq -o YouType.zip -d /Applications/
-    if test -d "/Applications/YouType.app"; then
+    if [[ $PWD == /opt/homebrew/Caskroom/youtype* ]]; then
+        APPDESTINATION=""
+    else
+        APPDESTINATION="/Applications/"
+    fi
+    APPFILENAME="${APPDESTINATION}YouType.app"
+    
+    unzip -qq -o YouType.zip -d "$APPDESTINATION"
+    if test -d "$APPFILENAME"; then
         rm YouType.zip
-        if [[ $(xattr "/Applications/YouType.app") = *com.apple.quarantine* ]]; then
-            xattr -d com.apple.quarantine /Applications/YouType.app
+        if [[ $(xattr "$APPFILENAME") = *com.apple.quarantine* ]]; then
+        echo "============= Removing com.apple.quarantine attribute ============="
+            xattr -d com.apple.quarantine "$APPFILENAME"
         fi
         
         echo "============= Success ============="
