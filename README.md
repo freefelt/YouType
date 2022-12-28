@@ -7,21 +7,30 @@
 
 Also YouType will be useful when working in **full-screen mode**, when indicator of the current keyboard layout is hidden. The indicator next to the cursor in the right place will tell you what keyboard layout is now selected.
 
-# Installation
+# Installation / Uninstallation
 
-## Install using a [script](https://github.com/freefelt/YouType/raw/main/Installer.sh)
-Open Terminal.app and run the command:
+## Using [Homebrew](https://github.com/Homebrew/homebrew-cask)
+To install YouType open Terminal.app and run the command:
+```bash
+brew install youtype --no-quarantine
 ```
-/bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Installer.sh)"
+`--no-quarantine` param is to avoid a Gatekeeper popup on first launch.
+
+To uninstall:
+```bash
+brew uninstall youtype
 ```
 
-## Install via [Homebrew](https://github.com/Homebrew/homebrew-cask)
-Open Terminal.app and run the command:
+## Using [scripts](https://github.com/freefelt/YouType/raw/main/Scripts)
+To install YouType open Terminal.app and run the command:
+```bash
+/bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Scripts/Installer.sh)"
 ```
-brew install youtype
+To uninstall:
+```bash
+/bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Scripts/Uninstaller.sh)"
 ```
-or
+If you want to run a script non-interactively, you can use option `NONINTERACTIVE=1` before the commands:
+```bash
+NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL http...
 ```
-brew install --no-quarantine youtype
-```
-to avoid a Gatekeeper popup on first launch.

@@ -7,21 +7,30 @@
 
 Также YouType будет удобна при работе в **полноэкранном режиме**, когда индикатор текущей раскладки скрывается вместе с главной панелью. Флажок возле курсора в нужном месте подскажет какой сейчас выбран язык ввода.
 
-# Установка
+# Установка / Удаление
 
-## Установить с помощью [скрипта](https://github.com/freefelt/YouType/raw/main/Installer.sh)
-Откройте Terminal.app и выполните команду:
+## С помощью [Homebrew](https://github.com/Homebrew/homebrew-cask)
+Для установки YouType откройте Terminal.app и выполните команду:
+```bash
+brew install youtype --no-quarantine
 ```
-/bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Installer.sh)"
+`--no-quarantine` - параметр чтобы избежать всплывающего окна Gatekeeper при первом запуске.
+
+Для удаления:
+```bash
+brew uninstall youtype
 ```
 
-## Установить с помощью [Homebrew](https://github.com/Homebrew/homebrew-cask)
-Откройте Terminal.app и выполните команду:
+## С помощью [скриптов](https://github.com/freefelt/YouType/raw/main/Scripts)
+Для установки YouType откройте Terminal.app и выполните команду:
+```bash
+/bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Scripts/Installer.sh)"
 ```
-brew install youtype
+Для удаления:
+```bash
+/bin/bash -c "$(curl -fsSL https://github.com/freefelt/YouType/raw/main/Scripts/Uninstaller.sh)"
 ```
-или
+Если нужно запустить скрипты неинтерактивно, можно добавить параметр `NONINTERACTIVE=1` перед командами:
+```bash
+NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL http...
 ```
-brew install --no-quarantine youtype
-```
-чтобы избежать всплывающего окна Gatekeeper при первом запуске.
