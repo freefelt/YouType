@@ -18,8 +18,9 @@ brew install youtype --no-quarantine
 
 To uninstall:
 ```bash
-brew uninstall youtype
+brew uninstall youtype --zap
 ```
+`--zap` param is to app settings and cache.
 
 ## Using [scripts](https://github.com/freefelt/YouType/raw/main/Scripts)
 To install YouType open Terminal.app and run the command:
