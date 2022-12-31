@@ -14,13 +14,13 @@ To install YouType open Terminal.app and run the command:
 ```bash
 brew install youtype --no-quarantine
 ```
-`--no-quarantine` param is to avoid a Gatekeeper popup on first launch.
+`--no-quarantine` param is to avoid a Gatekeeper popup on first launch (optional).
 
 To uninstall:
 ```bash
 brew uninstall youtype --zap
 ```
-`--zap` param is to remove app settings and cache.
+`--zap` param is to remove app settings and cache (optional).
 
 ## Using [scripts](https://github.com/freefelt/YouType/raw/main/Scripts)
 To install YouType open Terminal.app and run the command:

@@ -14,13 +14,13 @@
 ```bash
 brew install youtype --no-quarantine
 ```
-`--no-quarantine` - параметр помогает избежать всплывающего окна Gatekeeper при первом запуске.
+`--no-quarantine` - параметр помогает избежать всплывающего окна Gatekeeper при первом запуске (опционально).
 
 Для удаления:
 ```bash
 brew uninstall youtype --zap
 ```
-`--zap` - параметр удаляет настройки и кэш приложения.
+`--zap` - параметр удаляет настройки и кэш приложения (опционально).
 
 ## С помощью [скриптов](https://github.com/freefelt/YouType/raw/main/Scripts)
 Для установки YouType откройте Terminal.app и выполните команду:
