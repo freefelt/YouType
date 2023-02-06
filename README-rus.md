@@ -1,5 +1,5 @@
 # YouType для macOS
-### Может отображать текущую раскладку клавиатуры в строке состояния в виде флагов в macOS 12.4
+### Может отображать текущую раскладку клавиатуры в строке состояния в виде флагов в macOS 12.4+
 ![Screenshot1.png](Screenshot1.png)
 [**Поддержать**](https://www.buymeacoffee.com/freefelt)  |  [**Обратная связь**](https://github.com/freefelt/YouType/issues/new)  |  [Обзоры / упоминания](reviews.md)  |  [Скачать](https://github.com/freefelt/YouType/raw/main/YouType.zip) |  [YouType for Windows](Windows/README-rus.md)  |  This page is also available in: [english](../..)
 
