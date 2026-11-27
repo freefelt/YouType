@@ -35,3 +35,12 @@ If you want to run a script non-interactively, you can use option `NONINTERACTIV
 ```bash
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL http...
 ```
+
+# macOS 26 Tahoe: "Show Emoji & Symbols" fix
+On macOS 26 Tahoe, the **Show Emoji & Symbols** menu item does nothing. A patch in [Patches/TahoeEmojiFix](Patches/TahoeEmojiFix) fixes it: the menu item opens the emoji picker at the text cursor in the app you're typing in.
+
+To apply it, quit YouType, clone this repository and run (needs Xcode Command Line Tools):
+```bash
+Patches/TahoeEmojiFix/apply.sh /Applications/YouType.app
+```
+The patched app is re-signed, so afterwards remove YouType from **System Settings > Privacy & Security > Accessibility** and add it again. See the [patch README](Patches/TahoeEmojiFix/README.md) for details.
